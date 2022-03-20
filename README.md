@@ -1,14 +1,13 @@
 # Data Explorer Dash App
 
-[! https://img.shields.io/github/license/johnbomidi/data-explorer-dash-app] [! https://img.shields.io/badge/Made%20at-Starschema-red]
 Dash App to explore Time Series or data that has a sequence index
 
 
 ## Running locally
 
-To run a development instance locally, create a virtualenv, install the 
+To run a development instance locally, ensure you have the 
 requirements from `requirements.txt` and launch `app.py` using the 
-Python executable from the virtualenv.
+Python executable.
 
 ## Deploying on ECS
 
