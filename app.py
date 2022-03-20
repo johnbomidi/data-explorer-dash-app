@@ -1,46 +1,21 @@
-import flask
-import dash
-import dash_bootstrap_components as dbc
-import dash_html_components as html
-import plotly.graph_objs as gobs
 
-external_stylesheets = ['https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css']
+from dash_extensions.enrich import Dash
+
+from _app.layout import serve_layout
+from _app.callback import register_callbacks
 
 
-external_scripts = ['https://code.jquery.com/jquery-3.2.1.slim.min.js',
-                    'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js',
-                    'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js']
+external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
+
 
 # Server definition
 
-server = flask.Flask(__name__)
-app = dash.Dash(__name__,
-                external_stylesheets=external_stylesheets,
-                external_scripts=external_scripts,
-                server=server)
+app = Dash(prevent_initial_callbacks=True, 
+            external_stylesheets=external_stylesheets
+            )
 
 # HEADER
 # ======
-
-header = dbc.NavbarSimple(
-    children=[
-        dbc.NavItem(dbc.NavLink("Page 1", href="#")),
-        dbc.DropdownMenu(
-            children=[
-                dbc.DropdownMenuItem("More pages", header=True),
-                dbc.DropdownMenuItem("Page 2", href="#"),
-                dbc.DropdownMenuItem("Page 3", href="#"),
-            ],
-            nav=True,
-            in_navbar=True,
-            label="More",
-        ),
-    ],
-    brand="Data Explorer Dash App",
-    brand_href="#",
-    color="primary",
-    dark=True
-)
 
 
 # COMPONENTS
@@ -53,14 +28,12 @@ header = dbc.NavbarSimple(
 # ===========
 
 # Your interaction goes here.
-
+register_callbacks(app)
 
 # APP LAYOUT
 # ==========
 
-app.layout = html.Div([
-    header
-])
+app.layout = serve_layout()
 
 if __name__ == '__main__':
     app.run_server(debug=True)
