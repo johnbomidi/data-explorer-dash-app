@@ -4,7 +4,9 @@ Dash App to explore Time Series or data that has a sequence index
 
 ![image](https://user-images.githubusercontent.com/37553132/161395361-b8efae32-28c3-466e-9865-6daafdc13fea.png)
 
-![image](https://user-images.githubusercontent.com/37553132/161395433-0863a0cd-f636-4c14-93b0-18d1608735a8.png)
+##
+
+![image](https://user-images.githubusercontent.com/37553132/161395555-874f8afe-61ea-4597-927e-d99b01fb5695.png)
 
 
 ## Running locally
