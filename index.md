@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## Welcome to Data Explorer App Blog
 
-You can use the [editor on GitHub](https://github.com/johnbomidi/data-explorer-dash-app/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Here are some great resources used to build this app!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Dash Documentation
 
-### Markdown
+The dash documentation is quite thorough.  RTFM!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Upload
+The first example to drop in data file and displaying it as a table was the starting point for this app.
+https://dash.plotly.com/dash-core-components/upload
 
-```markdown
-Syntax highlighted code block
+#### Dropdown
+The tutorial has a good introduction to the dropdown components for selecting the index and columns to explore.
+https://dash.plotly.com/layout
+https://dash.plotly.com/dash-core-components/dropdown
 
-# Header 1
-## Header 2
-### Header 3
+#### Basic and Advanced Callbacks
+The upload and dropdown examples had some callback logic introduced already.  The tuturial helped further on chained callbacks to use output of the index to change the dropdown for available columns to plot.
+https://dash.plotly.com/basic-callbacks
 
-- Bulleted
-- List
+Circular callback in advanced section of callbacks was used for range and slider synchronization
+https://dash.plotly.com/advanced-callbacks
 
-1. Numbered
-2. List
+#### And then the plotting
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnbomidi/data-explorer-dash-app/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
