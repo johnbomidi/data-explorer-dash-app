@@ -2,7 +2,7 @@
 
 Dash App to explore Time Series or data that has a sequence index
 
-![image](https://user-images.githubusercontent.com/37553132/161395296-2026cd38-3e52-40f3-9d91-0914a5eeee6e.png)
+![image](https://user-images.githubusercontent.com/37553132/161395361-b8efae32-28c3-466e-9865-6daafdc13fea.png)
 
 
 ## Running locally
