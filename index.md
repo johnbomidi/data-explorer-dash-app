@@ -8,7 +8,7 @@ The dash documentation is quite thorough.  RTFM!
 
 #### Upload
 The first example to drop in data file and displaying it as a table was the starting point for this app.
-[](https://dash.plotly.com/dash-core-components/upload)
+[Dash upload component](https://dash.plotly.com/dash-core-components/upload)
 
 #### Dropdown
 The tutorial has a good introduction to the dropdown components for selecting the index and columns to explore.
