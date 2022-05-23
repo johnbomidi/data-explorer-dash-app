@@ -14,6 +14,13 @@ The first example to drop in data file and displaying it as a table was the star
 [Dash Layout](https://dash.plotly.com/layout) <br />
 The layout of the app is a good reference
 
+![image](https://user-images.githubusercontent.com/37553132/161395361-b8efae32-28c3-466e-9865-6daafdc13fea.png)
+
+##
+
+![image](https://user-images.githubusercontent.com/37553132/161395555-874f8afe-61ea-4597-927e-d99b01fb5695.png)
+
+
 #### Dropdown
 [Dash core components: Dropdown](https://dash.plotly.com/dash-core-components/dropdown) <br />
 The tutorial has a good introduction to the dropdown components for selecting the index and columns to explore as two separate dropdowns.
